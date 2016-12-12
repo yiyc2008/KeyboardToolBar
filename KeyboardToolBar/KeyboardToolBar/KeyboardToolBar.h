@@ -18,4 +18,13 @@
 
 - (instancetype)initWithArray:(NSArray *)array;
 
+- (instancetype)initWithShowChangeButton:(BOOL)show;
+
+/** tf数组 */
+@property (strong, nonatomic) NSArray *array;
+/** 上一步block */
+@property (copy, nonatomic) void (^backBtnClickBlock)();
+/** 下一步block */
+@property (copy, nonatomic) void (^nextBtnClickBlock)();
+
 @end
