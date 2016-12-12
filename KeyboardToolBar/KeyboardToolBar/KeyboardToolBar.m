@@ -99,9 +99,6 @@
         self.backBtnClickBlock();
     }
 }
-- (void)share {
-    
-}
 
 - (void)nextBtnClick {
     [_array enumerateObjectsUsingBlock:^(id  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
